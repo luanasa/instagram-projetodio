@@ -41,7 +41,7 @@ body {
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     min-height: 34rem;
 }
 
@@ -54,6 +54,8 @@ body {
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+
+    gap: 2rem;
 }
 
 .group:nth-child(1) {
@@ -81,6 +83,8 @@ body {
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+
+    margin-bottom: -1rem;
 }
 
 .instagram-logout {
@@ -90,10 +94,7 @@ body {
 
 .not-account {
     color: rgb(160, 160, 160);
-}
-
-.link-blue {
-    color: #0095f6;
+    
 }
 
 .get-the-app {
@@ -103,6 +104,7 @@ body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+    gap: 1rem;
 }
 
 .download {
